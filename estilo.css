@@ -10,6 +10,32 @@ body {
 }
 
 /* Estilo del encabezado */
+.box{
+  display: inline-block;
+  margin: 0px;
+}
+
+#barraDeNavegacion{
+  display: inline-block;
+  left: 20px;
+  position: relative;
+}
+
+#logo{
+  position: relative;
+}
+
+#titulo{
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+
+#barraNav{
+  position: relative;
+  left: 100px;
+}
+
 header {
   background-color: #fff;
   padding: 20px;
@@ -19,6 +45,13 @@ header {
   z-index: 10;
 }
 
+ul{
+  padding: 0px;
+}
+
+header{
+  padding-bottom: 0px;
+}
 
 
 header nav ul li {
@@ -90,9 +123,4 @@ main ol li, main ul li {
 
 #faq dt.open:before {
   content: "-";
-}
-
-#barraDeNavegacion{
-  display: inline-block;
-  left: 20px;
 }
