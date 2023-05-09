@@ -10,6 +10,36 @@ body {
 }
 
 /* Estilo del encabezado */
+.box{
+  display: inline-block;
+  margin: 0px;
+}
+
+#logo{
+  position: relative;
+}
+
+#titulo{
+  position: relative;
+  left: 90px;
+  bottom: 20px;
+}
+
+#barraNav{
+  position: relative;
+  left: 64px;
+  top: 20px;
+  display: block;
+}
+
+ul{
+  padding: 0px;
+}
+
+header{
+  padding-bottom: 0px;
+}
+
 header nav ul li {
   display: inline-block;
   margin-right: 20px;
@@ -20,17 +50,12 @@ header nav ul li a {
   text-decoration: none;
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-
 /* Estilo del contenido principal */
 main {
-  /*position: fixed;
-  top:;*/
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 86px;
 }
 
 main h2 {
@@ -84,6 +109,7 @@ main ol li, main ul li {
 .barraDeNavegacion{
   background-color: #fff;
   padding: 20px;
+  padding-bottom: 0;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
@@ -91,13 +117,14 @@ main ol li, main ul li {
   display: inline-block;
   position: fixed;
   left: 20px;
-  top: -80px;
+  top: -0px;
   transition-duration: 2s;
 }
 
 .barraDeNavegacionMinimizada{
   background-color: #fff;
   padding: 20px;
+  padding-bottom: 0;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
@@ -105,6 +132,6 @@ main ol li, main ul li {
   display: inline-block;
   position: fixed;
   left: 20px;
-  top: -140px;
+  top: -90px;
   transition-duration: 2s;
 }
