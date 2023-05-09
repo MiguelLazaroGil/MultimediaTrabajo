@@ -118,7 +118,7 @@ main ol li, main ul li {
   position: fixed;
   left: 20px;
   top: -0px;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .barraDeNavegacionMinimizada{
@@ -133,5 +133,5 @@ main ol li, main ul li {
   position: fixed;
   left: 20px;
   top: -90px;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
