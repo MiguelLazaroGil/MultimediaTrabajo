@@ -21,3 +21,9 @@ window.onscroll= function(){
 	let a = "-" + Desplazamiento_Actual + "px"
 	Barra.style.top = a;
 }
+let boton = document.querySelector("#botonDonacion");
+let audioElement = document.getElementById("audio");
+     boton.addEventListener("click", () => {
+		audioElement.play();
+		console.log("reproduciendo");
+       })
