@@ -46,6 +46,14 @@ body {
   top: 20px;
   display: block;
 }
+h1{
+  color: #800000;
+  font-family: "Chillerz";
+  font-size: 50px;
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,2,2,1) 50%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
 
 ul{
   padding: 0px;
@@ -63,6 +71,22 @@ header nav ul li {
 header nav ul li a {
   color: #333;
   text-decoration: none;
+}
+.boton_barra {
+  color: #aaaaaa;
+}
+.boton_barra:hover{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(109, 30, 183);
+  color: rgb(33, 3, 60);
+
+  transition: 1.2s;
+}
+a #transicion{
+  transition-delay: 3s;
 }
 
 /* Estilo del contenido principal */
