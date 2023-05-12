@@ -1,4 +1,6 @@
 //Archivo de Java
+
+//Ocultar el header
 let ublicacionPrincipal = window.pageYOffset; //toma la ubicacion de la y
 window.onscroll = function () {
   /*var Barra=document.getElementById("barraDeNavegacion")
@@ -20,6 +22,8 @@ window.onscroll = function () {
   let a = "-" + Desplazamiento_Actual + "px";
   Barra.style.top = a;
 };
+
+//SOnido boton donación
 let boton = document.querySelector("#botonDonacion");
 let audioElement = document.getElementById("audio");
 boton.addEventListener("click", () => {
@@ -27,10 +31,13 @@ boton.addEventListener("click", () => {
   console.log("reproduciendo");
 });
 
+
+//COmentarios
 const commentContainer = document.getElementById("cajaComentarios");
 document.getElementById("botonComentarios").addEventListener("click", ()=> {
   anadirComentario();
 });
+
 
 function anadirComentario() {
 
