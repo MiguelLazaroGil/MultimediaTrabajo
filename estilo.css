@@ -8,6 +8,10 @@
   font-family: "Chillerz";
   src: url("Fonts/chiller/Chillerz DEMO.otf")format("opentype");
 }
+ @font-face {
+  font-family:"Dripping" ;
+  src: url("Fonts/Dripping DEMO.otf");
+ }
 
 /*Movimiento por la página.*/
 html{
@@ -22,6 +26,15 @@ body {
   /*background-color: #f6f6f6;*/
   /*color: #333;*/
   margin: 0px;
+}
+/*estilo global*/
+h3{
+  color: #9222db;
+  font-family: "Chillerz";
+}
+h4{
+  color:#9222db;
+  font-family: "Chillerz";
 }
 
 /* Estilo del encabezado */
@@ -84,9 +97,6 @@ header nav ul li a {
   color: rgb(33, 3, 60);
 
   transition: 1.2s;
-}
-a #transicion{
-  transition-delay: 3s;
 }
 
 /* Estilo del contenido principal */
@@ -155,6 +165,15 @@ article{
 
 #faq dt.open:before {
   content: "-";
+}
+
+/*estilo de la sección Información del juego*/
+.info-item{
+  margin: 10px 0 10 0;
+}
+span{
+  margin: 10px;
+  display:block;
 }
 
 .barraDeNavegacion{
