@@ -33,33 +33,6 @@ body {
 #logo{
   position: relative;
 }
-.boton_barra{
-  color: #979797;
-}
-
-h1{
-  font-family: "Chillerz";
-  color: #6e1010;
-  font-size: 50px;
-   background:-webkit-linear-gradient(90deg,rgb(35, 4, 29) 10%, rgb(73, 7, 61) 20%, rgba(245,2,2,1) 50%);
-   -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  
-}
-
-.boton_barra:hover{
-  padding: 10px;
-  background-color: rgb(165, 70, 253);
-  color: rgb(32, 2, 60);
-  border: 1px;
-  border-color: darkmagenta;
-  transition: 0.7s;
-
-}
-#botonDonacion :hover{
-  background-color:rgb(27, 5, 47);
-  color: rgb(29, 4, 52);
-}/*no funciona el hover lo tengo que investigar*/
 
 #titulo{
   position: relative;
@@ -219,4 +192,27 @@ section img:hover{
 }
 #galeria{
   padding-top: 162px;
+}
+
+/*Estilo de la caja de comentarios.*/
+#newComment{
+  position: relative;
+  background-color: #060606;
+  color: #ffffff;
+}
+.container h3{
+  margin-bottom: 20px;
+  font-family: "Jaez";
+  font-size: 30px;
+  color: #7a0000;
+}
+
+.container button{
+  background-color: #4b0101;
+  color: #aaaaaa;
+}
+
+#comentarios{
+  margin: 40 20 40 20;
+  position: relative;
 }
