@@ -1,11 +1,26 @@
 /* Fuente */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face{
+  font-family: "Jaez";
+  src: url("Fonts/jaez-Regular.otf")format("opentype");
+}
+@font-face{
+  font-family: "Chillerz";
+  src: url("Fonts/chiller/Chillerz DEMO.otf")format("opentype");
+}
+
+/*Movimiento por la página.*/
+html{
+  scroll-behavior: smooth;
+}
 
 /* Estilo del cuerpo de la página */
 body {
+  background-color: #060606;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  background-color: #f6f6f6;
-  color: #333;
+  /*background-color: #f6f6f6;*/
+  /*color: #333;*/
   margin: 0px;
 }
 
@@ -55,16 +70,31 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  margin-top: 100px;
 }
 
 main h2 {
-  font-size: 24px;
+  color: #800000;
+  font-family: "Chillerz";
+  font-size: 50px;
   margin-top: 40px;
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,2,2,1) 50%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+main section h2{
+  margin-bottom: 260px;
+}
+main section h3{
+  font-family: "Jaez";
+  font-size: 20px;
+  color: #7a0000;
 }
 
 main ol li, main ul li {
   line-height: 1.5;
+}
+article{
+  padding: 40px 0 0 0;
 }
 
 /*Estilo del boton*/
@@ -88,6 +118,11 @@ main ol li, main ul li {
 
 
 /* Estilo de la sección de preguntas frecuentes */
+
+.faq-item{
+  margin: 0 10px 0 10px;
+}
+
 #faq dt {
   font-size: 20px;
   margin-top: 40px;
@@ -107,7 +142,8 @@ main ol li, main ul li {
 }
 
 .barraDeNavegacion{
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: #060606;
   padding: 20px;
   padding-bottom: 0;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
@@ -121,7 +157,8 @@ main ol li, main ul li {
 }
 
 .barraDeNavegacionMinimizada{
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: #060606;
   padding: 20px;
   padding-bottom: 0;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
@@ -133,21 +170,26 @@ main ol li, main ul li {
   top: -90px;
   transition-duration: 0s;
 }
+
+/*Estilo de la galeria de imagenes.*/
 section {
+  justify-content: center;
   display: flex;
-  width: 600px;
   height: 430px;
 }
 section img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
-  opacity: 8;
-  transition: 5s ease;
+  opacity: 0,5;
+  transition: 1s ease;
 }
 section img:hover{
   cursor: crosshair;
   width:  300px;
   opacity: 1;
-  filter: contrast(120%);
+  /*filter: contrast(120%);*/
+}
+#galeria{
+  padding-top: 162px;
 }
