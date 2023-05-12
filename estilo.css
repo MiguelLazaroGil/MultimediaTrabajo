@@ -45,6 +45,7 @@ h4{
 
 #logo{
   position: relative;
+
 }
 
 #titulo{
@@ -173,7 +174,7 @@ article{
 }
 span{
   margin: 10px;
-  display:block;
+  display: inline;
 }
 
 .barraDeNavegacion{
