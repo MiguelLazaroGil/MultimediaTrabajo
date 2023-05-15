@@ -13,6 +13,15 @@
   src: url("Fonts/Dripping DEMO.otf");
  }
 
+ @font-face{
+  font-family: "Story";
+  src: url("Fonts/DHF Story Brush.ttf")format("truetype");
+}
+@font-face{
+  font-family: "Fears";
+  src: url("Fonts/DK Face Your Fears.ttf")format("truetype");
+}
+
 /*Movimiento por la página.*/
 html{
   scroll-behavior: smooth;
@@ -30,11 +39,14 @@ body {
 /*estilo global*/
 h3{
   color: #9222db;
-  font-family: "Chillerz";
+  font-family: "Fears";
+  font-size: 27px;
+
 }
 h4{
   color:#9222db;
-  font-family: "Chillerz";
+  font-family: "Fears";
+  font-size: 20px;
 }
 
 /* Estilo del encabezado */
@@ -62,7 +74,7 @@ h4{
 }
 h1{
   color: #800000;
-  font-family: "Chillerz";
+  font-family: "Story";
   font-size: 50px;
   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,2,2,1) 50%);
   -webkit-background-clip:text;
@@ -109,7 +121,7 @@ main {
 
 main h2 {
   color: #800000;
-  font-family: "Chillerz";
+  font-family: "Story";
   font-size: 50px;
   margin-top: 40px;
   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,2,2,1) 50%);
