@@ -267,6 +267,20 @@ section img:hover{
 
 #gritoDeGuerra{
   font-family: "Story";
+  font-style: italic;
   font-size: 30px;
-  color: #7a0000;
+  color: #872a2a;
+}
+
+/*estilo del footer*/
+footer{
+    margin:-10px;
+    position:relative;
+    width: 100%;
+    padding: 50px;
+    clear:both; /*para indicar que el elemeneto footer va abajo del elemento anterior*/
+    background-color: #33333343;
+    text-align: center;
+
+
 }
