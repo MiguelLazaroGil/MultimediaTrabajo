@@ -274,17 +274,21 @@ section img:hover{
 
 /*estilo del footer*/
 footer{
-    margin: -10px;
+    margin: 0px;
     position:relative;
     width: 100%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     clear:both; /*para indicar que el elemeneto footer va abajo del elemento anterior*/
     background-color: #33333343;
     text-align: center;
 }
-footer p {
-  margin-right: 60px;
+footer p{
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
+
 #disclaimer{
   color: #801d1d;
 }
@@ -292,7 +296,15 @@ footer p {
   justify-content: center;
 }
 
-.ext{
+.ext1{
   font-size: 20px;
+  color: #15754b;
+  justify-content: center;
+  
+}
+.ext2{
+  font-size: 20px;
+  color: #801d1d;
+  justify-content: center;
   
 }
