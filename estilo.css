@@ -264,3 +264,9 @@ section img:hover{
   margin: 40 20 40 20;
   position: relative;
 }
+
+#gritoDeGuerra{
+  font-family: "Story";
+  font-size: 30px;
+  color: #7a0000;
+}
